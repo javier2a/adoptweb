@@ -1,19 +1,43 @@
+/* ---------------Variables */
+:root{
+  /* Colores */
+  --green-color:#04FEA9;
+  --white-color:white;
+  --black-color:#313337;
+  /* Tipografia */
+  --normal:12px;
+  /* Espaciado */
+  --space:10px;
+}
+
+/* ---------------Variables */
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+       url('../fonts/source-sans-pro-v13-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/source-sans-pro-v13-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html,body{
   padding: 0;
   margin: 0;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--normal);
+  font-family: 'Source Sans Pro', system-ui;
+  color: var(--black-color);
 }
  /* ----------------------------Nav Bar */
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  background-color: #04FEA9;
-  color: white;
+  padding: var(--space);
+  background-color: var(--green-color);
+  color: var(--white-color);
 }
-img {
+nav img {
   max-width: 80px;
   max-height: 30px;
 }
@@ -32,11 +56,11 @@ nav li {
 nav li a{
   display: block;
   text-decoration: none;
-  color: black;
+  color: var(--black-color);
 }
 
 nav li a:hover{
-  color: white;
+  color: var(--white-color);
 }
 
 /* End--------------------------- Nav Bar */
@@ -51,24 +75,43 @@ nav li a:hover{
 }
 .products{ 
    display: flex;
+   justify-content: center;
    background-image: url(../Images/curve.png);
    background-size: cover;
    background-position: center top;
-   height: 50px;
+   max-height: 50px;
    padding: 15%;
    display: flex;
 }
 .product{
-  padding: 10px;
+  padding: var(--space);
+  margin-top: -240px;
+  max-width: 280px;
+  max-height: 300px;
 }
 .product .content{
-  text-align: center;
-  background-color: white;
-  padding: 20px;
+  /* text-align: center; */
+  background-color: var(--white-color);
+  padding: 15px;
+  box-shadow: 0 0 1px #c1bcbc;
 }
-.content img{
-  
-  max-width: 280px;
-  max-height: 150px;
-  
+
+.img_content{
+  text-align: center;
+  /* max-width: 280px;
+  max-height: 150px; */
+}
+
+.main_button{
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: 0;
+  border-radius: 2px;
+}
+.main_button:hover{
+    background-color: #1deaa4;
+    cursor: pointer;
 }
