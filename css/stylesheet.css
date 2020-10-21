@@ -6,6 +6,9 @@
   --black-color:#313337;
   /* Tipografia */
   --normal:12px;
+  --normal-hight:17px;
+  --hight:20px;
+  --bigest:30px;
   /* Espaciado */
   --space:10px;
   /* Box Shadow */
@@ -13,6 +16,15 @@
 }
 
 /* ---------------Variables */
+
+/* ---------------Container */
+
+.container{
+ max-width: 1280px;
+ margin: 0 auto;
+}
+
+/* ------------------Container */
 
 @font-face {
   font-family: 'Source Sans Pro';
@@ -77,6 +89,8 @@ nav li a:hover{
 }
 .main_section h1{
   margin-top: -50px;
+  font-size: var(--bigest);
+  font-weight: bold;
 }
 .products{ 
    display: flex;
@@ -106,6 +120,14 @@ nav li a:hover{
   max-height: 150px; */
 }
 
+.content h2{
+  font-size: var(--bigest);
+}
+
+.content p{
+  font-size: var(--normal-hight);
+}
+
 .main_button{
   background-color: var(--green-color);
   width: 100%;
@@ -114,6 +136,7 @@ nav li a:hover{
   color: var(--white-color);
   border: 0;
   border-radius: 2px;
+  font-size: var(--hight);
 }
 .main_button:hover{
     background-color: #1deaa4;
