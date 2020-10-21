@@ -8,6 +8,8 @@
   --normal:12px;
   /* Espaciado */
   --space:10px;
+  /* Box Shadow */
+  --box:0 0 2px 1px #c1bcbc;
 }
 
 /* ---------------Variables */
@@ -73,6 +75,9 @@ nav li a:hover{
   padding:15%;
   text-align: center;
 }
+.main_section h1{
+  margin-top: -50px;
+}
 .products{ 
    display: flex;
    justify-content: center;
@@ -85,15 +90,14 @@ nav li a:hover{
 }
 .product{
   padding: var(--space);
-  margin-top: -240px;
+  margin-top: -290px;
   max-width: 280px;
-  max-height: 300px;
 }
 .product .content{
   /* text-align: center; */
   background-color: var(--white-color);
   padding: 15px;
-  box-shadow: 0 0 1px #c1bcbc;
+  box-shadow: var(--box);
 }
 
 .img_content{
