@@ -142,3 +142,85 @@ nav li a:hover{
     background-color: #1deaa4;
     cursor: pointer;
 }
+/* End----------------Main section */
+
+
+/* --------------------Benefits */
+.benefits{
+  display: flex;
+  justify-content: space-around;
+  padding: 10%;
+}
+.benefit{
+  text-align: center;
+}
+.benefit figure{
+  max-width: 250px;
+  height: 215px;
+  text-align: center;
+}
+.benefit img{
+  width: 100%;
+  height: 100%;
+}
+
+.benefit h3{
+  font-size: var(--normal-hight);
+}
+
+.benefit p{
+  width: 183px;
+  margin: 0 auto;
+}
+
+/* End---------------------Benefits */
+
+
+/* -----------------Testimonios */
+
+.testimonials-title{
+  font-size: var(--bigest);
+  text-align: center;
+}
+
+.testimonials{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10%;
+  text-align: center;
+}
+
+.testimony{
+  padding: var(--space);
+  
+}
+.testimony .testimony-content{
+  background-color: var(--white-color);
+  /* padding:15px; */
+  box-shadow: var(--box);
+  border-radius: 4px;
+}
+.testimony-img{
+  width: 100%;
+}
+.testimony-text{
+  padding: var(--space);
+}
+.testimony-text h3{
+  text-align: left;
+  font-size: var(--normal-hight);
+}
+/* End------------------Testimonios */
+
+
+
+
+/* -------------------Footer */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: var(--space);
+}
