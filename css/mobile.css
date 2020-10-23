@@ -1,0 +1,50 @@
+/* ---------------Variables */
+:root{
+  /* Colores */
+  --green-color:#04FEA9;
+  --white-color:white;
+  --black-color:#313337;
+  /* Tipografia */
+  --normal:12px;
+  --normal-hight:17px;
+  --hight:20px;
+  --bigest:30px;
+  /* Espaciado */
+  --space:10px;
+  /* Box Shadow */
+  --box:0 0 2px 1px #c1bcbc;
+}
+
+/* ---------------Variables */
+@media (max-width:600px){
+
+  .main_section{
+    padding: 4%;
+  }
+.products{
+  display: inherit;
+  height: auto;
+
+}
+.product{
+  margin-top: auto;
+  margin: 0 auto;
+}
+.benefits ,.testimonials{
+  display: inherit;
+}
+.testimonials p{
+  text-align: left;
+}
+.benefit {
+  padding: var(--space);
+  margin: 0 auto;
+  text-align: center;
+}
+}
+
+@media (max-width:1024px){
+  .benefits{
+    flex-wrap: wrap;
+  }
+}
