@@ -277,7 +277,20 @@ nav li a:hover{
 
 
 /* END-------------------Adopt page */
+/* -------------------faqs page */
+.faqs-container{
+  background-color: var(--white-color);
+}
+  .faqs-title{
+    font-size: var(--bigest);
+  }
+  .faq-title{
+    font-size: var(--hight);
+  }
 
+
+
+/* END-------------------faqs page */
 
 /* -------------------Footer */
 
@@ -287,5 +300,9 @@ nav li a:hover{
   background-color: var(--black-color);
   color: var(--white-color);
   padding: var(--space);
+}
+
+.contact a{
+  color: var(--green-color);
 }
 
