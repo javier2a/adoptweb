@@ -1,0 +1,35 @@
+/* ---------------Variables */
+:root{
+  /* Colores */
+  --green-color:#04FEA9;
+  --white-color:white;
+  --black-color:#313337;
+  /* Tipografia */
+  --normal:12px;
+  --normal-hight:17px;
+  --hight:20px;
+  --bigest:30px;
+  /* Espaciado */
+  --space:10px;
+  --space2:20px;
+  /* Box Shadow */
+  --box:0 0 2px 1px #c1bcbc;
+}
+
+/* ---------------Variables */
+
+body{
+  background-color:var(--black-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content_paypal{
+  text-align: center;
+}
+
+.content_paypal a{
+  color: var(--green-color);
+}

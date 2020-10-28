@@ -41,6 +41,17 @@
   margin: 0 auto;
   text-align: center;
 }
+.grid-container{
+  padding: 30px;
+}
+.Adopt-title{
+  padding-left: 10px;
+}
+
+.space{
+  display: none;
+}
+
 }
 
 @media (max-width:1024px){

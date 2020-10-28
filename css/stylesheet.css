@@ -11,6 +11,7 @@
   --bigest:30px;
   /* Espaciado */
   --space:10px;
+  --space2:20px;
   /* Box Shadow */
   --box:0 0 2px 1px #c1bcbc;
 }
@@ -43,7 +44,11 @@ html,body{
   color: var(--black-color);
 }
  /* ----------------------------Nav Bar */
-nav{
+label{
+  font-size: var(--normal);
+}
+
+ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -212,7 +217,66 @@ nav li a:hover{
 }
 /* End------------------Testimonios */
 
+/* -------------------Product page */
+.Adopt-title{
+  font-size: 30px;
 
+}
+.Adopt figure{
+  max-width: 250px;
+  margin: 0 auto;
+}
+.Adopt img{
+  width: 100%;
+  
+}
+
+.Adopt h3{
+  padding-left: ;
+  font-size: 30px;
+}
+.Adopt p {
+  font-size: 17px;
+}
+
+/* END-------------------Product page */
+
+
+/* -------------------Adopt page */
+
+.form_contact{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space2);
+}
+.form_contact_images{
+  max-width: 150px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.form_contact_images img{
+  width: 100%;
+}
+
+.form_contact h3{
+  font-size: var(--bigest);
+}
+.data{
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+.form_contact .main_button{
+  margin-top: var(--space);
+}
+
+
+/* END-------------------Adopt page */
 
 
 /* -------------------Footer */
@@ -224,3 +288,4 @@ nav li a:hover{
   color: var(--white-color);
   padding: var(--space);
 }
+
