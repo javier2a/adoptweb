@@ -23,6 +23,7 @@
 .container{
  max-width: 1280px;
  margin: 0 auto;
+ 
 }
 
 /* ------------------Container */
@@ -269,6 +270,7 @@ nav li a:hover{
   border-radius: 2px;
   border: 1px solid var(--black-color);
   box-sizing: border-box;
+  gir
 }
 
 .form_contact .main_button{
